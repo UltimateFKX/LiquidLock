@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.guizin.lockscreenliquidglass"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.guizin.lockscreenliquidglass.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.guizin.lockscreenliquidglass.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:2:5-13:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.13.1] /home/guizin/.gradle/caches/8.10.2/transforms/810dc8b5dca3395d5677c46a4a83cee2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+19        android:description="@string/module_description"
+19-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:4:9-57
+20        android:extractNativeLibs="false"
+20-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:6:9-42
+21        android:label="LockScreen Liquid Glass"
+21-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:3:9-48
+22        android:theme="@android:style/Theme.DeviceDefault" >
+22-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:5:9-59
+23        <activity
+23-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:7:9-12:20
+24            android:name="com.guizin.lockscreenliquidglass.MainActivity"
+24-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:7:19-47
+25            android:exported="true" >
+25-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:7:48-71
+26            <intent-filter>
+26-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:8:13-11:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:9:17-69
+27-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:9:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:10:17-77
+29-->/home/guizin/lockscreen_liquidglass/app/src/main/AndroidManifest.xml:10:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[io.github.libxposed:service:101.0.0] /home/guizin/.gradle/caches/8.10.2/transforms/e98c8fa3ff2d52ab185faff9d37eb9b9/transformed/service-101.0.0/AndroidManifest.xml:9:9-13:54
+34            android:name="io.github.libxposed.service.XposedProvider"
+34-->[io.github.libxposed:service:101.0.0] /home/guizin/.gradle/caches/8.10.2/transforms/e98c8fa3ff2d52ab185faff9d37eb9b9/transformed/service-101.0.0/AndroidManifest.xml:10:13-70
+35            android:authorities="com.guizin.lockscreenliquidglass.XposedService"
+35-->[io.github.libxposed:service:101.0.0] /home/guizin/.gradle/caches/8.10.2/transforms/e98c8fa3ff2d52ab185faff9d37eb9b9/transformed/service-101.0.0/AndroidManifest.xml:11:13-65
+36            android:exported="true" />
+36-->[io.github.libxposed:service:101.0.0] /home/guizin/.gradle/caches/8.10.2/transforms/e98c8fa3ff2d52ab185faff9d37eb9b9/transformed/service-101.0.0/AndroidManifest.xml:12:13-36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+39            android:authorities="com.guizin.lockscreenliquidglass.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.3.0] /home/guizin/.gradle/caches/8.10.2/transforms/6c61ca498e421bd6961d62bef33b1450/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/guizin/.gradle/caches/8.10.2/transforms/b6e6027acb2afbdcca4d3913ab7421ce/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/guizin/.gradle/caches/8.10.2/transforms/b6e6027acb2afbdcca4d3913ab7421ce/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/guizin/.gradle/caches/8.10.2/transforms/b6e6027acb2afbdcca4d3913ab7421ce/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+48-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+49                android:value="androidx.startup" />
+49-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+50        </provider>
+51
+52        <receiver
+52-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+53            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+53-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+54            android:directBootAware="false"
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+55            android:enabled="true"
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+56            android:exported="true"
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+57            android:permission="android.permission.DUMP" >
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+58            <intent-filter>
+58-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+59                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+60            </intent-filter>
+61            <intent-filter>
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+62                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+63            </intent-filter>
+64            <intent-filter>
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+65                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+66            </intent-filter>
+67            <intent-filter>
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+68                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/guizin/.gradle/caches/8.10.2/transforms/1e75067c3c60c2d48b825832535e797e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+69            </intent-filter>
+70        </receiver>
+71    </application>
+72
+73</manifest>
